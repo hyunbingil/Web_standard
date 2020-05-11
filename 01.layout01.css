@@ -1,0 +1,72 @@
+body {
+    background-color: #c8e6c9;
+}
+
+#wrap {
+    width: 1000px;
+    height: 900px;
+    margin: 0 auto;
+}
+
+#header{
+    width: 1000px;
+    height: 100px;
+    background: #2e7d32;
+    font-size: 40px;
+    color: #fff;
+    text-align: center; /* 글자 가운데 정렬 */
+    text-transform: uppercase; /* 대문자 */
+    line-height: 100px;
+}
+
+#nav {
+    width: 1000px;
+    height: 100px;
+    background: #388e3c;
+    font-size: 40px;
+    color: #fff;
+    text-align: center; 
+    text-transform: uppercase;
+    line-height: 100px;
+}
+
+#side {
+    float: left;
+    /* 블록요소의 정렬 상태를 설정하고, 상속, 애니메이션 불가능
+    non, left, right가 있고, 왼쪽 오른쪽으로 정렬한다. */
+    width: 300px;
+    height: 600px;
+    background: #43a047;
+    font-size: 40px;
+    color: #fff;
+    text-align: center; 
+    text-transform: uppercase;
+    line-height: 600px;
+    /* 문장과 문장사이의 간격을 설정해주는 것인데, height값과 같게해주면 세로 중앙에 온다.
+    중요한건, 한 줄일때만 가능하다.*/
+}
+
+#contents {
+    float: left;
+    width: 700px;
+    height: 600px;
+    background: #4caf50;
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    line-height:600px;
+}
+
+#footer {
+    float: left;
+    /* side와 contents 때문에 깨져서 안보이는 footer를 위해서 float 속성넣어주기 */
+    width: 1000px;
+    height: 100px;
+    background: #66bb6a;
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 100px;
+}
