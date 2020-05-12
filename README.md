@@ -9,3 +9,9 @@
 
 ## layout04
 <img src="/img/04.layout04.PNG">
+
+## layout05
+<img src="/img/05.layout05.PNG">
+
+## layout06
+<img src="/img/06.layout06.PNG">
