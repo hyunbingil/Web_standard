@@ -15,3 +15,7 @@
 
 ## layout06
 <img src="/img/06.layout06.PNG">
+
+
+## layout06
+<img src="/img/07.layout07.PNG">
